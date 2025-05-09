@@ -484,7 +484,7 @@ function traditionalscucmodel(
 
     filepath = pwd()
     open(
-        "/home/yuanyiping/下载/task 9/master-10 (little case - tuc vs cuc)/res/ben_calculation_result.txt",
+        "D:/GithubClonefiles/clustered_unitcommitment_module/res/ben_calculation_result.txt",
         "w",
     ) do io
         writedlm(io, [" "])

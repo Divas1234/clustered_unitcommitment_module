@@ -5,7 +5,7 @@ function readxlssheet()
     println("Step-1: Pkgs and functions are loaded")
     filepath = pwd()
     # df = XLSX.readxlsx("/home/yuanyiping/下载/task 9/master-4/inputdata/data1-cuc.xlsx") # for little case
-    df = XLSX.readxlsx("/home/yuanyiping/下载/task 9/master-10 (little case - tuc vs cuc)/inputdata/data.xlsx") # for little case
+    df = XLSX.readxlsx("D:/GithubClonefiles/clustered_unitcommitment_module/inputdata/data.xlsx") # for little case
     # df = XLSX.readxlsx("D:/OneDriveFles/OneDrive/.uestc/AcademicResearchWorks/Prevoious Code/task 9/master-10 (little case - tuc vs cuc)/inputdata/new_cluster_data3.xlsx") # for little case
     #  df = XLSX.readxlsx("D:/OneDriveFles/OneDrive/.uestc/AcademicResearchWorks/Prevoious Code/task 9/master-10 (little case - tuc vs cuc)/inputdata/cluster_data39.xlsx") # for little case
     # df = XLSX.readxlsx("/home/yuanyiping/下载/task 9/master-3/inputdata/data2.xlsx") # for little case

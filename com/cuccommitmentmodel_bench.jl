@@ -580,7 +580,7 @@ function refined_cscucmodel_withoutFreqandFlex(
 
     filepath = pwd()
     # open(filepath * "\\code\\cuc\\res\\calculation_result.txt", "w") do io
-    open("/home/yuanyiping/下载/task 9/master-10 (little case - tuc vs cuc)/res/pro_calculation_result.txt", "w") do io
+    open("D:/GithubClonefiles/clustered_unitcommitment_module/res/pro_calculation_result.txt", "w") do io
         writedlm(io, [" "])
         writedlm(io, ["su_cost" "sd_cost" "prod_cost" "cr⁺" "cr⁻" "𝜟pd" "𝜟pw" "𝜟pr"], '\t')
         writedlm(io, str, '\t')
